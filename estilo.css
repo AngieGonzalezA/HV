@@ -124,7 +124,7 @@ html{
 }
 /* SECCION SOBRE MI */
 .sobremi{
-    background-color: #e6e6e6;
+    background-color: #e9dde9;
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -190,7 +190,7 @@ html{
     margin-top: 30px;
 }
 .habilidades .contenido-seccion .fila .col{
-    width: 47%;
+    width: %;
     text-align: left;
 }
 .habilidades .contenido-seccion .fila .col .cont-barra{
@@ -212,7 +212,7 @@ html{
 }
 /* SECCION RESUMEN */
 .resumen{
-    background-color: #e6e6e6;
+    background-color: #e9dde9;
     padding: 140px 0 100px 0;
     text-align: center;
 }
