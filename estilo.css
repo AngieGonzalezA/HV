@@ -1,4 +1,3 @@
-/* importamos las fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 *{
     font-family: "Titillium Web";
@@ -9,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* SECCION INICIO */
+/* INICIO */
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/fondo.jpg");
@@ -44,7 +43,7 @@ html{
     margin-bottom: 10px;
     font-weight: bold;
 }
-/* ****** */
+
 .inicio .contenido-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
@@ -116,13 +115,13 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
-/* estilos generales */
+
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
     margin-top: 32px;
 }
-/* SECCION SOBRE MI */
+/* SOBRE MI */
 .sobremi{
     background-color: 	#faf6f0;
     padding: 140px 0 100px 0;
@@ -164,7 +163,7 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
-/* SECCION HABILIDADES */
+/* HABILIDADES */
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
@@ -210,7 +209,7 @@ html{
     height: 30px;
     margin-right: 2px;
 }
-/* SECCION RESUMEN */
+/* RESUMEN */
 .resumen{
     background-color: #faf6f0;
     padding: 140px 0 100px 0;
@@ -271,7 +270,7 @@ html{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
-/* SECCION CONTACTO */
+/* CONTACTO */
 .contacto{
     background-color: #202020;
     padding: 140px 0 100px 0;
@@ -323,7 +322,7 @@ html{
   --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
 
-/* SECCION RESPONSIVE */
+/* RESPONSIVE */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;
